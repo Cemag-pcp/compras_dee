@@ -16,7 +16,7 @@ requirements.txt
 chromedriver-win32.zip
 chromedriver_extracted/
 erro_screenshot.png
-*.bat
+python CUsersTItestesimulacaoAtuali.bat
 
 # Playwright (root + subprojects)
 .playwright/
