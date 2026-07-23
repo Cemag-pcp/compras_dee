@@ -1,0 +1,30 @@
+service_account_cemag.json
+__pycache__
+playwright-innovaro/.env
+playwright-innovaro/node_modules
+output/playwright
+playwright-innovaro/output/
+playwright-innovaro/src/output/
+playwright-innovaro/npm-install*.log
+
+# Automação antiga (Selenium) - fora do escopo atual do repositório
+main.py
+main_copy.py
+main_segunda_planilha.py
+utils.py
+requirements.txt
+chromedriver-win32.zip
+chromedriver_extracted/
+erro_screenshot.png
+*.bat
+
+# Playwright (root + subprojects)
+.playwright/
+.playwright-cli/
+.playwright-mcp/
+
+# Windows Explorer folder metadata (synced/OneDrive folders)
+desktop.ini
+
+# Claude Code local settings
+.claude/settings.local.json
