@@ -87,7 +87,7 @@ const RELATORIO_CLASSE_DEPOSITO =
   process.env.INNOVARO_RELATORIO_CLASSE_DEPOSITO || "Almox de Compras";
 const RELATORIO_CLASSE_RECURSO =
   process.env.INNOVARO_RELATORIO_CLASSE_RECURSO || "Materiais e Produtos";
-const SPEC_ROWS_TO_CHECK = Number(process.env.INNOVARO_EXCLUDED_SPEC_COUNT || 9);
+const SPEC_ROWS_TO_CHECK = Number(process.env.INNOVARO_EXCLUDED_SPEC_COUNT || 10);
 const HOUR_TOKEN = "h";
 
 const DATE_FIELD_CANDIDATES = [
