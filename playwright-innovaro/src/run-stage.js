@@ -31,7 +31,7 @@ const SIMULATION_NAME =
   process.env.INNOVARO_SIMULATION_NAME || "Pendencia Diaria Carretas Compras";
 const SIMULATION_MAT_IND_NAME =
   process.env.INNOVARO_SIMULATION_MAT_IND_NAME || "Simulação Mat ind (Mov 3M)";
-const SPEC_ROWS_TO_CHECK = Number(process.env.INNOVARO_EXCLUDED_SPEC_COUNT || 7);
+const SPEC_ROWS_TO_CHECK = Number(process.env.INNOVARO_EXCLUDED_SPEC_COUNT || 9);
 
 // Cada estágio abaixo é um ponto de entrada INDEPENDENTE: roda a partir de
 // um login fresco, sem depender de nenhum outro estágio já ter rodado
